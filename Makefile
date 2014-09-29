@@ -1,2 +1,7 @@
 clean:
-	@find . -iname '*.orig' -delete -o -iname '*.pyc' -delete -o -iname '*~' -delete
+	@find . -iname '*.orig' -delete 
+	@find . -iname '*.pyc' -delete
+	@find . -iname '*~' -delete
+
+publish:
+	@ipython register.py
