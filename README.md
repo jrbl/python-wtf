@@ -3,7 +3,7 @@ came from. It's intended for manual tracing of executing programs. Anywhere
 one would otherwise be using print statetments, one can instead use wtf
 statements.
 
-Simply calling wft() defaults to printing the name of the current function
+Simply calling wtf() defaults to printing the name of the current function
 and wtf line number and the function names and line numbers of the previous
 four stack frames.
 
